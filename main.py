@@ -19,6 +19,10 @@ print("Generating filename:", excel_name)  # For demonstration purposes
 player_data = get_player_data()
 set_rostership(workbook, excel_name, sleeper_username, player_data)
 set_team_rosters(workbook, excel_name, sleeper_username, player_data)
+
+if "Sheet" in workbook.sheetnames:
+    del workbook["Sheet"]
+    workbook.save(excel_name)
 print("Excel file created successfully.")
 
 
