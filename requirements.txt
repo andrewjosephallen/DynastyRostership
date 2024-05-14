@@ -1,0 +1,5 @@
+pandas
+openpyxl
+datetime
+requests
+json
