@@ -192,6 +192,9 @@ In this guide, you'll learn how to run the Python app, provide a username, and r
 2. **Navigate to the App's Folder**
    - In the command line, type `cd ` (with a space), then paste the path you copied earlier. To paste, use Ctrl + V on Windows or Cmd + V on macOS.
    - Press `Enter`. You should now be in the correct directory.
+  
+3. **Run this super important script**
+    `pip3 install -r requirements.txt`
 
 ## Step 3: Run `main.py`
 
